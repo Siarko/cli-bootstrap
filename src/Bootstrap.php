@@ -8,7 +8,7 @@ use Siarko\CliBootstrap\Events\EventInitialized;
 use Siarko\CliBootstrap\Events\ExitEvent;
 use Siarko\CliBootstrap\Events\SignalEvent;
 use Siarko\CliBootstrap\Exception\FabricatedException;
-use Siarko\Events\EventManager;
+use Siarko\Events\Api\EventManagerInterface;
 use Throwable;
 
 class Bootstrap
@@ -21,7 +21,7 @@ class Bootstrap
     private float $loopTime = 0;
 
     public function __construct(
-        private readonly EventManager $eventManager,
+        private readonly EventManagerInterface $eventManager,
         private readonly LoggerInterface $logger,
         private array $tasks = [],
         private readonly array $signals = [

@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c219c9d-6aed-47d7-9b5a-2b284ca09430" name="Changes" comment="Refactor Events; Move them from a different module">
-      <change beforePath="$PROJECT_DIR$/.idea/cli-bootstrap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cli-bootstrap.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1c219c9d-6aed-47d7-9b5a-2b284ca09430" name="Changes" comment="Add h2sf dependency manager default config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EventManager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Events/CleanupEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Events/CleanupEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Events/ConsumerInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Events/Event.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Events/EventInitialized.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Events/EventInitialized.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Events/EventInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Events/EventProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Events/ExitEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Events/ExitEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Events/SignalEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Events/SignalEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/cli.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +15,17 @@
       <option value="repository" />
     </option>
   </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/../events/composer.json" />
+    </option>
+  </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../events" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
@@ -66,21 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/h2s/php/events",
-    "nodejs_package_manager_path": "npm",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/h2s/php/events&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -99,7 +86,9 @@
       <workItem from="1776003337958" duration="9712000" />
       <workItem from="1776020878450" duration="93000" />
       <workItem from="1776021749861" duration="101000" />
-      <workItem from="1776023560731" duration="788000" />
+      <workItem from="1776023560731" duration="1060000" />
+      <workItem from="1776024832114" duration="156000" />
+      <workItem from="1776025038019" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="First release">
       <option name="closed" value="true" />
@@ -133,7 +122,31 @@
       <option name="project" value="LOCAL" />
       <updated>1776024083995</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add readme">
+      <option name="closed" value="true" />
+      <created>1776024442531</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776024442531</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Move Events to h2sf/events package">
+      <option name="closed" value="true" />
+      <created>1776024580970</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776024580970</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add h2sf dependency manager default config">
+      <option name="closed" value="true" />
+      <created>1776024937749</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776024937749</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +157,9 @@
     <MESSAGE value="Make bootstrap tasks initializable in constructor" />
     <MESSAGE value="Bugfix" />
     <MESSAGE value="Refactor Events; Move them from a different module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor Events; Move them from a different module" />
+    <MESSAGE value="Add readme" />
+    <MESSAGE value="Move Events to h2sf/events package" />
+    <MESSAGE value="Add h2sf dependency manager default config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add h2sf dependency manager default config" />
   </component>
 </project>
