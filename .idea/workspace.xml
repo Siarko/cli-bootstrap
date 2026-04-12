@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c219c9d-6aed-47d7-9b5a-2b284ca09430" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/xdebug.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EventManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/CleanupEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/ConsumerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/Event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/EventInitialized.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/EventInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/EventProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/ExitEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/SignalEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/FabricatedException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logger/BasicLogger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/cli.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="575462d4-d84a-4771-94bd-018379b7156c" name="docker-app" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/app" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3CGE6jY1inqJjc3Q8kGQ38OtSJH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/h2s/php/cli-bootstrap",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-PS-261.22158.283" />
+        <option value="bundled-php-predefined-a98d8de5180a-a9a4ea3ee0f4-com.jetbrains.php.sharedIndexes-PS-261.22158.283" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c219c9d-6aed-47d7-9b5a-2b284ca09430" name="Changes" comment="" />
+      <created>1776003333950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776003333950</updated>
+      <workItem from="1776003337958" duration="9469000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Bootstrap.php</url>
+          <line>150</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

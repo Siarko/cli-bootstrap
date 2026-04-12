@@ -1,0 +1,20 @@
+{
+  "name": "siarko/cli-bootstrap",
+  "description": "PHP Cli bootstrap library. Implements error handling, main cli loop end others",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Siarko\\CliBootstrap\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mateusz Korbal",
+      "email": "mateusz@korbal.pl"
+    }
+  ],
+  "require": {
+    "ext-pcntl": "*",
+    "psr/log": "^3.0"
+  }
+}

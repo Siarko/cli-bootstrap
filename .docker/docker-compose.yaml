@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    volumes:
+      - ..:/app
+    stdin_open: true   # docker run -i
+    tty: true          # docker run -t
+    network_mode: host
+    user: ${MY_UID}:${MY_GID}
+    environment:
+      - PHP_IDE_CONFIG=serverName=docker-app
