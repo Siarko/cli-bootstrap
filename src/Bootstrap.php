@@ -109,7 +109,7 @@ class Bootstrap
     private function runTask(TaskInterface|callable $task): void
     {
         if ($task instanceof TaskInterface) {
-            $this->runTask($task);
+            $task->execute();
         } else {
             $task();
         }
