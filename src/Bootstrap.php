@@ -8,6 +8,7 @@ use Siarko\CliBootstrap\Events\EventInitialized;
 use Siarko\CliBootstrap\Events\ExitEvent;
 use Siarko\CliBootstrap\Events\SignalEvent;
 use Siarko\CliBootstrap\Exception\FabricatedException;
+use Siarko\Events\EventManager;
 use Throwable;
 
 class Bootstrap

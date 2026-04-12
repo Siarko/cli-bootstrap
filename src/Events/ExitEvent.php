@@ -2,6 +2,8 @@
 
 namespace Siarko\CliBootstrap\Events;
 
+use Siarko\Events\Api\EventInterface;
+
 class ExitEvent implements EventInterface
 {
     private array $errorData;

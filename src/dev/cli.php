@@ -2,14 +2,15 @@
 
 namespace Siarko\CliBootstrap;
 
-
 use Siarko\CliBootstrap\Events\CleanupEvent;
-use Siarko\CliBootstrap\Events\ConsumerInterface;
 use Siarko\CliBootstrap\Events\EventInitialized;
-use Siarko\CliBootstrap\Events\EventInterface;
 use Siarko\CliBootstrap\Events\ExitEvent;
 use Siarko\CliBootstrap\Events\SignalEvent;
 use Siarko\CliBootstrap\Logger\BasicLogger;
+
+use Siarko\Events\Api\EventInterface;
+use Siarko\Events\Api\EventListenerInterface;
+use Siarko\Events\EventManager;
 
 const PROJECT_ROOT = __DIR__.'/../..';
 require_once PROJECT_ROOT . "/vendor/autoload.php";
@@ -21,7 +22,7 @@ $eventManager = new EventManager($logger);
 $bootstrap = new Bootstrap($eventManager, $logger);
 $bootstrap->setTargetTPS(2);
 
-$eventManager->addListener(new class implements ConsumerInterface {
+$eventManager->addListener(new class implements EventListenerInterface {
     public function consumeEvent(EventInterface $event)
     {
         echo "[ANY EVENT] ";

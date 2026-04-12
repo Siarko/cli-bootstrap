@@ -1,6 +1,6 @@
 {
   "name": "siarko/cli-bootstrap",
-  "description": "PHP Cli bootstrap library. Implements error handling, main cli loop end others",
+  "description": "PHP Cli bootstrap library. Implements error handling, main cli loop",
   "type": "library",
   "autoload": {
     "psr-4": {
@@ -15,6 +15,7 @@
   ],
   "require": {
     "ext-pcntl": "*",
-    "psr/log": "^3.0"
+    "psr/log": "^3.0",
+    "h2sf/events": "^0.4"
   }
 }

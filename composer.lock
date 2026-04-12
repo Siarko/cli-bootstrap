@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a226bc823978b27d0b1d4db455c380c",
+    "content-hash": "1ce9b430476e0decabd52082ea1aad4b",
     "packages": [
+        {
+            "name": "h2sf/events",
+            "version": "0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/h2s-framework/events.git",
+                "reference": "03e7943f1d8b55bef4ad9285e0f2398be2ec40a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/h2s-framework/events/zipball/03e7943f1d8b55bef4ad9285e0f2398be2ec40a9",
+                "reference": "03e7943f1d8b55bef4ad9285e0f2398be2ec40a9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Siarko\\Events\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "H2S",
+                    "email": "mateusz@siarko.pl"
+                }
+            ],
+            "description": "description",
+            "support": {
+                "issues": "https://github.com/h2s-framework/events/issues",
+                "source": "https://github.com/h2s-framework/events/tree/0.4"
+            },
+            "time": "2026-04-12T20:01:22+00:00"
+        },
         {
             "name": "psr/log",
             "version": "3.0.2",

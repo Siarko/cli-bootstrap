@@ -2,6 +2,8 @@
 
 namespace Siarko\CliBootstrap\Events;
 
+use Siarko\Events\Api\EventInterface;
+
 class SignalEvent implements EventInterface
 {
 

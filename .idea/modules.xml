@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/cli-bootstrap.iml" filepath="$PROJECT_DIR$/.idea/cli-bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../events/.idea/events.iml" filepath="$PROJECT_DIR$/../events/.idea/events.iml" />
     </modules>
   </component>
 </project>

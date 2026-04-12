@@ -2,7 +2,7 @@
 
 namespace Siarko\CliBootstrap\Events;
 
-use Siarko\CliBootstrap\Events\EventInterface;
+use Siarko\Events\Api\EventInterface;
 
 class CleanupEvent implements EventInterface
 {
