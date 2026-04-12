@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c219c9d-6aed-47d7-9b5a-2b284ca09430" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/xdebug.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EventManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Events/CleanupEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Events/ConsumerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Events/Event.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Events/EventInitialized.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Events/EventInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Events/EventProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Events/ExitEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Events/SignalEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/FabricatedException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logger/BasicLogger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaskInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/cli.php" afterDir="false" />
-    </list>
+    <list default="true" id="1c219c9d-6aed-47d7-9b5a-2b284ca09430" name="Changes" comment="First release" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,12 +75,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776003333950</updated>
-      <workItem from="1776003337958" duration="9469000" />
+      <workItem from="1776003337958" duration="9712000" />
     </task>
+    <task id="LOCAL-00001" summary="First release">
+      <option name="closed" value="true" />
+      <created>1776018457659</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776018457659</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First release" />
+    <option name="LAST_COMMIT_MESSAGE" value="First release" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

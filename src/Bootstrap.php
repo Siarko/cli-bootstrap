@@ -12,8 +12,6 @@ use Throwable;
 
 class Bootstrap
 {
-
-    private array $tasks = [];
     private bool $run = true;
     private bool $cleanedUp = false;
 
@@ -24,6 +22,7 @@ class Bootstrap
     public function __construct(
         private readonly EventManager $eventManager,
         private readonly LoggerInterface $logger,
+        private array $tasks = [],
         private readonly array $signals = [
             SIGTSTP, //CTRL + Z
             SIGINT, //CTRL + C
